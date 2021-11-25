@@ -1,0 +1,58 @@
+body{
+    background-image: url("zero.png");
+}
+.meter{
+    margin-top: 150px;
+    margin-left: 360px;
+    width: 100%;
+    max-width: 700px;
+}
+.metre_body{
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background-color: rgba(60, 156, 196, 0.87);
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+    font: bold 60px "Comic Sans MS";
+    color: hotpink;
+}
+.meter_fill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    background: rgba(234, 40, 108, 0.99);
+    transform-origin: center top;
+    transition: transform 4s linear;
+}
+
+.meter_cover{
+    width: 75%;
+    height: 150%;
+    background-color: #D5C7CF;
+    position: absolute;
+    border-radius: 50%;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25%;
+    box-sizing: border-box;
+
+}
+.header{
+    margin-left: 200px;
+    width: 100%;
+    padding-top: 90px;
+}
+h1{
+    font:bold 50px "Comic Sans MS";
+    color: rgba(58, 3, 46, 0.71);
+}
